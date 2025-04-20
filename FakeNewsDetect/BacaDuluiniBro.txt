@@ -1,0 +1,35 @@
+*note*:
+pip install numpy
+pip install pandas
+pip install scikit-learn
+
+
+DI file fake_news_detector.py isinya kelas utama untuk deteksi berita palsu
+
+DI file train_detector.py isinya Untuk melatih model dengan dataset nya letaknya di def main untuk file csv nya
+
+Kalo Mau Pake Jalankan Yang Predict.py
+
+
+
+Untuk Test News Asli :
+"Federal Reserve raises interest rates by 0.25% citing concerns about inflation"
+"New study published in Nature shows correlation between exercise and improved cognitive function"
+"Company reports quarterly earnings below analyst expectations, stock price drops 3%"
+"Senate passes bipartisan infrastructure bill after months of negotiation"
+"Weather service issues warning for potential flooding in coastal areas"
+"Scientists discover new species of deep-sea fish during ocean expedition"
+"Local hospital expands emergency department to accommodate growing population"
+"International trade agreement signed between neighboring countries after years of talks"
+"Research indicates moderate coffee consumption may have health benefits"
+"School board approves budget increase for technology improvements"
+
+
+
+Untuk Test News Fake:
+"President pledges support for new education initiatives across the country",
+"Scientists discover new species in Amazon rainforest that could revolutionize medicine",
+"BREAKING: Celebrity admits to faking their own death to escape fame",
+"Secret government program controlling weather patterns exposed by whistleblower",
+"Stock market showing signs of recovery after recent downturn",
+"Miracle cure discovered: This common fruit kills cancer cells in minutes"
